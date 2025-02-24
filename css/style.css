@@ -1,0 +1,20 @@
+/* Navbar sabit başlık için üst boşluk */
+body {
+    padding-top: 70px;
+  }
+  
+  /* Hero bölümünde opak kaplama */
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    transform: scale(1.5); /* Okların boyutunu %50 oranında büyütür */
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.8)); /* Oklara gölge ekler */
+}
